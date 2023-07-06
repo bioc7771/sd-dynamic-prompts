@@ -1,9 +1,9 @@
-- 2.12.5  Updates to support hires updates in auto1111. See [#498](https://github.com/adieyal/sd-dynamic-prompts/pull/498). Also manually updates PYTHONPATH in install.py if the extension's package is not found. [#496](https://github.com/adieyal/sd-dynamic-prompts/pull/496)
-- 2.12.4  Honouring --skip-install command line argument for faster load times. Also reverts change to extension-specific logging configuration - see [53e69fe](https://github.com/adieyal/sd-dynamic-prompts/commit/53e69feda77954b86b4b0bae5623bd85009826b3)
+- 2.12.5  Updates to support hires updates in auto1111. See [#498](https://github.com/jacobvo888/sd-dynamic-prompts/pull/498). Also manually updates PYTHONPATH in install.py if the extension's package is not found. [#496](https://github.com/jacobvo888/sd-dynamic-prompts/pull/496)
+- 2.12.4  Honouring --skip-install command line argument for faster load times. Also reverts change to extension-specific logging configuration - see [53e69fe](https://github.com/jacobvo888/sd-dynamic-prompts/commit/53e69feda77954b86b4b0bae5623bd85009826b3)
 - 2.12.3  Minor change that does removes the "Promt matrix..." log when there is a single prompt
-- 2.12.2  Workaround webui bug when extensions with nested tabs are present - see [#481](https://github.com/adieyal/sd-dynamic-prompts/pull/481)
-- 2.12.1  Hires fix - see [#474](https://github.com/adieyal/sd-dynamic-prompts/issues/474).
-- 2.12.0  Updated installation process to be more robust and ensure that the correct dependencies are available. See [#449](https://github.com/adieyal/sd-dynamic-prompts/pull/449)
+- 2.12.2  Workaround webui bug when extensions with nested tabs are present - see [#481](https://github.com/jacobvo888/sd-dynamic-prompts/pull/481)
+- 2.12.1  Hires fix - see [#474](https://github.com/jacobvo888/sd-dynamic-prompts/issues/474).
+- 2.12.0  Updated installation process to be more robust and ensure that the correct dependencies are available. See [#449](https://github.com/jacobvo888/sd-dynamic-prompts/pull/449)
 - 2.11.10 Resource leaks fixed
 - 2.11.9 Minor change to logger formatting
 - 2.11.8 Fixed unlink seed from prompt
@@ -13,42 +13,42 @@
 - 2.11.4 Fixed type error in install.py for older versions of python
 - 2.11.3 Added check to ensure that the correct version of dynamicprompts is installed. If not it outputs instructions for manual installation.
 - 2.11.2 Added a download collectons script in _tools/ and included the Mossbraker collection - https://github.com/Mossbraker/mj_reference_wildcards/
-- 2.11.1 Fixes [#382](https://github.com/adieyal/sd-dynamic-prompts/issues/382) (Save wildcards" only works once) and added an option to autopurge the cache.
+- 2.11.1 Fixes [#382](https://github.com/jacobvo888/sd-dynamic-prompts/issues/382) (Save wildcards" only works once) and added an option to autopurge the cache.
 - 2.11.0 Upgraded dynamicprompts to v0.23.0 which includes speed improvements to the prompt parser.
-- 2.10.5 Combinatorial batches now correctly uses a different seed per batch. Thanks to @dbitterlich. Fixes [#190](https://github.com/adieyal/sd-dynamic-prompts/issues/190). Also upgraded dynamicprompts to v0.22.0 which makes WildcardManager trees easily composable - [#74](https://github.com/adieyal/dynamicprompts/pull/74)
-- 2.10.4 Wildcard tab JS rework - see https://github.com/adieyal/sd-dynamic-prompts/pull/364
+- 2.10.5 Combinatorial batches now correctly uses a different seed per batch. Thanks to @dbitterlich. Fixes [#190](https://github.com/jacobvo888/sd-dynamic-prompts/issues/190). Also upgraded dynamicprompts to v0.22.0 which makes WildcardManager trees easily composable - [#74](https://github.com/jacobvo888/dynamicprompts/pull/74)
+- 2.10.4 Wildcard tab JS rework - see https://github.com/jacobvo888/sd-dynamic-prompts/pull/364
 - 2.10.3 Minor fixes and refactoring of the Wildcard Manager tab to reduce conflicts with other extensions
 - 2.10.2 Upgraded dynamicprompts to v0.21.2 which adds a missing parser config
-- 2.10.1 Upgraded dynamicprompts to v0.21.1 which fixes [#358](https://github.com/adieyal/sd-dynamic-prompts/issues/358)
+- 2.10.1 Upgraded dynamicprompts to v0.21.1 which fixes [#358](https://github.com/jacobvo888/sd-dynamic-prompts/issues/358)
 - 2.10.0 Upgraded dynamicprompts to v0.21.0 which introduces variables and parameterised templates
-- 2.9.1 Upgraded dynamicprompts to v0.20.2 which fixes [#354](https://github.com/adieyal/sd-dynamic-prompts/issues/354) - No values found for wildcards on Windows
+- 2.9.1 Upgraded dynamicprompts to v0.20.2 which fixes [#354](https://github.com/jacobvo888/sd-dynamic-prompts/issues/354) - No values found for wildcards on Windows
 - 2.9.0 Magic Prompt models are now read from a text file enabling users to add their own. Default model and magicprompt batch size options have been added to the settings tab.
-- 2.8.12 Prompts are frozen if the variation strength is greater than 0. See [#310](https://github.com/adieyal/sd-dynamic-prompts/issues/310)
-- 2.8.11 Fixed the broken wildcards manager, see [#338](https://github.com/adieyal/sd-dynamic-prompts/issues/338)
-- 2.8.10 Magic Prompt now works on M1/M2 Mac - see [#329](https://github.com/adieyal/sd-dynamic-prompts/issues/329)
+- 2.8.12 Prompts are frozen if the variation strength is greater than 0. See [#310](https://github.com/jacobvo888/sd-dynamic-prompts/issues/310)
+- 2.8.11 Fixed the broken wildcards manager, see [#338](https://github.com/jacobvo888/sd-dynamic-prompts/issues/338)
+- 2.8.10 Magic Prompt now works on M1/M2 Mac - see [#329](https://github.com/jacobvo888/sd-dynamic-prompts/issues/329)
 - 2.8.9 Updated dynamicprompts to 0.10.5 which fixes #307
 - 2.8.8 Slight tweak to 2.8.7
 - 2.8.7 Fixed bug causing unwanted newlines in wildcard files on Windows. See #270
 - 2.8.6 Added configurable batch size for Magic Prompts. Increasing the batch size can significantly improve prompt generation speed at the expense of slightly increases VRAM usage.
-- 2.8.5 Fixed infinite recursion in Gradio 3.22.1 - see [#316](https://github.com/adieyal/sd-dynamic-prompts/pull/316)
+- 2.8.5 Fixed infinite recursion in Gradio 3.22.1 - see [#316](https://github.com/jacobvo888/sd-dynamic-prompts/pull/316)
 - 2.8.4 Fixes ignore_whitespace for Jinja templates
 - 2.8.3 Added a setting that limits the number of prompts generated by Jinja to `batch_count * batch_size`.
 - 2.8.2 Added the ability to customise the wildcard wrap (prefix and suffix), see Settings -> Dynamic Prompts. Thanks to @aoirusann for implementing it.
 - 2.8.1 Fixed ZeroDivisionError error when not using negative prompts
 - 2.8.0 Upgraded to dynamic prompts v0.10.0 which enables combining random, combinatorial, cyclical prompts.
-- 2.7.3 Fixes [#271 - Fixed seed causes error](https://github.com/adieyal/sd-dynamic-prompts/issues/271)
-- 2.7.2 Fixes [#256 - "Reload UI" breaks the extension](https://github.com/adieyal/sd-dynamic-prompts/issues/256)
+- 2.7.3 Fixes [#271 - Fixed seed causes error](https://github.com/jacobvo888/sd-dynamic-prompts/issues/271)
+- 2.7.2 Fixes [#256 - "Reload UI" breaks the extension](https://github.com/jacobvo888/sd-dynamic-prompts/issues/256)
 - 2.7.1 Fixes a bug in CombinatorialPromptGenerator which was missing a parser_config argument
-- 2.7.0 Variant braces are now configurable, see [https://github.com/adieyal/sd-dynamic-prompts/#configuration](https://github.com/adieyal/sd-dynamic-prompts/#configuration) for details
-- 2.6.3 Addresses [#250](https://github.com/adieyal/sd-dynamic-prompts/issues/250#issuecomment-1425037699)
+- 2.7.0 Variant braces are now configurable, see [https://github.com/jacobvo888/sd-dynamic-prompts/#configuration](https://github.com/jacobvo888/sd-dynamic-prompts/#configuration) for details
+- 2.6.3 Addresses [#250](https://github.com/jacobvo888/sd-dynamic-prompts/issues/250#issuecomment-1425037699)
 - 2.6.2 Minor bug fix relating to copypaste
 - 2.6.1 Fixed send to img2txt parsing mostly fixed. There may be some lingering issues
 - 2.6.0 Upgraded to dynamicprompts v0.6.0 which includes support for symlinks for wildcards and a major revamp of the parsing machinery
-- 2.5.6 Addresses [#227](https://github.com/adieyal/sd-dynamic-prompts/issues/227)
+- 2.5.6 Addresses [#227](https://github.com/jacobvo888/sd-dynamic-prompts/issues/227)
 - 2.5.5 Prompts csv filname is now set to the name of the first image saved.
 - 2.5.4 Bumped dynamicprompts to v0.4.3 - enables zero repititions in sequence commands, e.g. `{0-3$$A|B|C}`
 - 2.5.3 Re-factored code into a single package
-- 2.5.2 Upgraded to dynamicprompts v0.4.1 which allows for all printables to be used as variant separators, e.g. {2$$|$$A|B|C}. This addresses [#211](https://github.com/adieyal/sd-dynamic-prompts/issues/211). Also fixed [#222](https://github.com/adieyal/sd-dynamic-prompts/pull/222).
+- 2.5.2 Upgraded to dynamicprompts v0.4.1 which allows for all printables to be used as variant separators, e.g. {2$$|$$A|B|C}. This addresses [#211](https://github.com/jacobvo888/sd-dynamic-prompts/issues/211). Also fixed [#222](https://github.com/jacobvo888/sd-dynamic-prompts/pull/222).
 - 2.5.1 Fixed a circular dependency in install.py
 - 2.5.0 Upgraded to dynamicprompts v0.4.0. Magic Prompts now has a regex block to remove unwanted wildcards - thanks to @akx.
 - 2.4.4 Upgraded dynamicprompts to v0.3.2 which includes a security fix for wildcards preventing search outside of the extension's directory. thnkas to @akx
@@ -61,14 +61,14 @@
 - 2.3.6 Using a Dummy Generator for attention grabber if spacy is not available
 - 2.3.5 Fixed extras requirement from dynamicprompts
 - 2.3.4 Changed the don't apply to negative prompts checkbox to apply to prompt magic only.
-- 2.3.3 Added the extension devilkkw wildcards collection - check it out [here](https://github.com/adieyal/sd-dynamic-prompts/tree/main/collections/devilkkw)
+- 2.3.3 Added the extension devilkkw wildcards collection - check it out [here](https://github.com/jacobvo888/sd-dynamic-prompts/tree/main/collections/devilkkw)
 - 2.3.2 Added an accordion to hide the prompt helpers section by default
 - 2.3.1 Fixed annoying unnecessary reinstallation of requirements. Also bumped dynamicprompts to v0.2.6 which includes wildcard caching
 - 2.3.0 Moved some advanced options into the settings tab. These are now saved when the application closes.
-- 2.2.4 Fixed decimal weights - see [#165](https://github.com/adieyal/sd-dynamic-prompts/issues/165)
-- 2.2.3 Fixed disable negative prompts - see [#167](https://github.com/adieyal/sd-dynamic-prompts/issues/167)
+- 2.2.4 Fixed decimal weights - see [#165](https://github.com/jacobvo888/sd-dynamic-prompts/issues/165)
+- 2.2.3 Fixed disable negative prompts - see [#167](https://github.com/jacobvo888/sd-dynamic-prompts/issues/167)
 - 2.2.2 Fixed missing whitespace between wildcards
-- 2.2.1 Fixed unlink seed from prompt bug - see [#150](https://github.com/adieyal/sd-dynamic-prompts/issues/150#issuecomment-1374847700)
+- 2.2.1 Fixed unlink seed from prompt bug - see [#150](https://github.com/jacobvo888/sd-dynamic-prompts/issues/150#issuecomment-1374847700)
 - 2.2.0 Added option in advanced settings to save the raw prompt in the png metadata
 - 2.1.1 Fixes a bug that caused the CombinatorialPromptGenerator to run slowly
 - 2.1.0 Upgraded to dynamicprompts 0.2.0 which honours whitespace in prompts by default (this can be switched off in advanced settings)
@@ -91,14 +91,14 @@
 - 1.5.6 Added various materials to the jumbo collection
 - 1.5.5 Fixed resolving nested prompts in wildcard files in random generator
 - 1.5.4 Fixed parsing bug with non ascii characters
-- 1.5.3 Fixed a bug caused in older python versions when using collections.abc.Iterable instead of typing.Iterable - https://github.com/adieyal/sd-dynamic-prompts/discussions/140
+- 1.5.3 Fixed a bug caused in older python versions when using collections.abc.Iterable instead of typing.Iterable - https://github.com/jacobvo888/sd-dynamic-prompts/discussions/140
 - 1.5.2 Added a large number of birds to the jumbo collection
 - 1.5.1 Added configuration slides for min and max attention. The default has been changed to 1.1-1.5
 - 1.5.0 Updated prompt parser to use pyparsing which allows for arbitrary recursive prompts and fixes some long-time bugs. There may be a few wrinkles that still need to be iron out
 - 1.4.4 Added confirm prompt when deleting wildcards. Wildcards are also sent to Trash instead of being deleted outright
 - 1.4.3 Added animal wildcards to the jumbo collection
 - 1.4.2 The change for 1.4.1 broke the ability to use wildcards in combination braces, e.g. `{2$$__colours__}`, 1.4.2. fixes this.
-- 1.4.1 Fixed sub-prompts in combination - see [#117](https://github.com/adieyal/sd-dynamic-prompts/issues/117)
+- 1.4.1 Fixed sub-prompts in combination - see [#117](https://github.com/jacobvo888/sd-dynamic-prompts/issues/117)
 - 1.4.0 Added option to weight prompts in combinationselector - thanks to [@shoffing](https://github.com/shoffing)
 - 1.3.3 Removed junk file
 - 1.3.2 Added c-style comments - thanks to @space-nuko
@@ -113,27 +113,27 @@
 - 1.0.2 Wildcard hierarchy is now alphabetically sorted
 - 1.0.1 Ensure that the wildcards tree is only loaded once
 - 1.0 Added a rudimentary wildcard manager - more to follow
-- 0.29.15 Fixes fixed magic prompt - seed issue - https://github.com/adieyal/sd-dynamic-prompts/issues/90
-- 0.29.14 Fixes duplicate wildcards - https://github.com/adieyal/sd-dynamic-prompts/issues/88
-- 0.29.13 Fixes broken styles for negative prompts = https://github.com/adieyal/sd-dynamic-prompts/issues/73
-- 0.29.12 Fixes broken styles = https://github.com/adieyal/sd-dynamic-prompts/issues/73
-- 0.29.11 Wildcards are sorted alphabetically before use - https://github.com/adieyal/sd-dynamic-prompts/issues/85
+- 0.29.15 Fixes fixed magic prompt - seed issue - https://github.com/jacobvo888/sd-dynamic-prompts/issues/90
+- 0.29.14 Fixes duplicate wildcards - https://github.com/jacobvo888/sd-dynamic-prompts/issues/88
+- 0.29.13 Fixes broken styles for negative prompts = https://github.com/jacobvo888/sd-dynamic-prompts/issues/73
+- 0.29.12 Fixes broken styles = https://github.com/jacobvo888/sd-dynamic-prompts/issues/73
+- 0.29.11 Wildcards are sorted alphabetically before use - https://github.com/jacobvo888/sd-dynamic-prompts/issues/85
 - 0.29.10 Fixed a bug the occurred when more positive prompts are created than negative prompts.
 - 0.29.9 Now using all_negative_prompts. Each image now uses its own negative prompt. Thanks to @lilly1987
-- 0.29.8 Fixed unlink seed from prompt - see https://github.com/adieyal/sd-dynamic-prompts/issues/80
+- 0.29.8 Fixed unlink seed from prompt - see https://github.com/jacobvo888/sd-dynamic-prompts/issues/80
 - 0.29.7 Removed python type aliases for backwards compatibility
 - 0.29.6 Maximum filesize for prompts is 50 to prevent issues on windows
 - 0.29.5 Added link to documentation on github
-- 0.29.4 Fixed pipe (|) in combinations string - see https://github.com/adieyal/sd-dynamic-prompts/issues/54
-- 0.29.3 Fixed localization for help text - see https://github.com/adieyal/sd-dynamic-prompts/issues/68
-- 0.29.2 Fixed camera models file in the jumbo collection - see https://github.com/adieyal/sd-dynamic-prompts/issues/69
+- 0.29.4 Fixed pipe (|) in combinations string - see https://github.com/jacobvo888/sd-dynamic-prompts/issues/54
+- 0.29.3 Fixed localization for help text - see https://github.com/jacobvo888/sd-dynamic-prompts/issues/68
+- 0.29.2 Fixed camera models file in the jumbo collection - see https://github.com/jacobvo888/sd-dynamic-prompts/issues/69
 - 0.29.1 Changed attention grabber to use noun phrases
 - 0.29.0 Added attention grabber
 - 0.28.1 Minor magic prompt fixes, with thanks to @SineSwiper
 - 0.28.0 Added tooltips to all components, with thanks to @Eugenii10
 - 0.27.4 Added debug logging
-- 0.27.3 Another fix for https://github.com/adieyal/sd-dynamic-prompts/issues/62
-- 0.27.2 Fixed bug when dynamic prompts is disabled - see https://github.com/adieyal/sd-dynamic-prompts/issues/62
+- 0.27.3 Another fix for https://github.com/jacobvo888/sd-dynamic-prompts/issues/62
+- 0.27.2 Fixed bug when dynamic prompts is disabled - see https://github.com/jacobvo888/sd-dynamic-prompts/issues/62
 - 0.27.1 Slight ui re-organisation
 - 0.27.0 Added option to disable image generation - useful in combination with writing prompts to file
 - 0.26.0 Added option to disable the negative prompt
@@ -150,7 +150,7 @@
 - 0.21.0 Added a checkbox to disable dynamic prompts if needed
 - 0.20.1 Using launch.run_pip instead of subprocess to install dependencies
 - 0.20.0 Added random, randint, and permutations jinja extensions
-- 0.19.2 Fixed bug in MagicPrompt that broke prompts with pipes, https://github.com/adieyal/sd-dynamic-prompts/issues/54
+- 0.19.2 Fixed bug in MagicPrompt that broke prompts with pipes, https://github.com/jacobvo888/sd-dynamic-prompts/issues/54
 - 0.19.1 Added missing install.py to install Jinja2
 - 0.19.0 Added a checkbox to enable unlinking seeds from prompts. This feature has been available for sometime but there hasn't been a checkbox in the ui to enable it.
 - 0.18.0 Added Jinja2 templates as an experimental feature
@@ -186,7 +186,7 @@
 - 0.4.3 Printing prompts at logger level INFO
 - 0.4.2 Ignoring unknown characters in non-utf8 encoding wildcard files
 - 0.4.1 Fixed regular expression for wildcards, it previously didn't allow wildcard files with underscores in them.
-- 0.4 Rows in a wildcard file that contain dynamic syntax will be resolved. This enables recusive resolution. See [this](https://github.com/adieyal/sd-dynamic-prompting/issues/3) feature request for a use case
+- 0.4 Rows in a wildcard file that contain dynamic syntax will be resolved. This enables recusive resolution. See [this](https://github.com/jacobvo888/sd-dynamic-prompting/issues/3) feature request for a use case
 - 0.3 Added interval implementation for combinations, i.e. you can now use {1-2$$op1|opt2|opt3} which will choose one or two options. Thanks to @galvanized for this.
 - 0.2 Fixed Batch img2img implementation
 - 0.1 Initial implementation

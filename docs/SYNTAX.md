@@ -424,7 +424,7 @@ As your prompts become more complex, the become harder to read. To prevent creat
    In ${season:summer}, I wear ${season:summer} shirts and ${season:summer} trousers
 ```
 
-Note that regular wildcard .txt files use a newline to represent new wildcard and so whitespace is not permitted. In this case you should consider using the YAML wildcard format. Here is a real-world example from the [publicprompts](https://github.com/adieyal/sd-dynamic-prompts/blob/main/collections/publicprompts.yaml) wildcard file:
+Note that regular wildcard .txt files use a newline to represent new wildcard and so whitespace is not permitted. In this case you should consider using the YAML wildcard format. Here is a real-world example from the [publicprompts](https://github.com/jacobvo888/sd-dynamic-prompts/blob/main/collections/publicprompts.yaml) wildcard file:
 
 ```
 # publicprompts.yaml
@@ -491,7 +491,7 @@ A red circle
 ...
 ```
 
-To use the combinatorial sampler, you need to use a [CombinatorialPromptGenerator](https://github.com/adieyal/dynamicprompts#combinatorial-generation) if you're using the [dynamicprompts](https://github.com/adieyal/dynamicprompts) library directly or the [combinatorial mode](https://github.com/adieyal/sd-dynamic-prompts#combinatorial-generation) if you are using the extension. You can also explicitly specify which sampler to use for certain parts of your prompt.
+To use the combinatorial sampler, you need to use a [CombinatorialPromptGenerator](https://github.com/jacobvo888/dynamicprompts#combinatorial-generation) if you're using the [dynamicprompts](https://github.com/jacobvo888/dynamicprompts) library directly or the [combinatorial mode](https://github.com/jacobvo888/sd-dynamic-prompts#combinatorial-generation) if you are using the extension. You can also explicitly specify which sampler to use for certain parts of your prompt.
 
 The `~` is used for a random sampler and `@` for cyclical. The syntax for variants is `{~red|green|blue}` and `__~colours__` for wildcards. Similarly, `{@red|green|blue}` and `__@colours__` for cycle.
 

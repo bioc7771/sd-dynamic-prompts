@@ -71,7 +71,7 @@ You can also use the same wildcard twice
 
 More complete documentation can be found [here](docs/SYNTAX.md).<br/>
 Prefer a tutorial? <a href="docs/tutorial.md">Click here</a><br/>
-Need a wildcard library? We've got you [covered](https://github.com/adieyal/sd-dynamic-prompts#collections).<br/>
+Need a wildcard library? We've got you [covered](https://github.com/jacobvo888/sd-dynamic-prompts#collections).<br/>
 
 ## Online resources
 * 📽️ [아무것도 생각 안 하고 그림 뽑는 방법 (stable diffusion Dynamic Prompts extension)](https://www.youtube.com/watch?v=P6Tl5sMUJpk)
@@ -94,7 +94,7 @@ The extension can be installed directly from within the **Extensions** tab withi
 
 You can also install it manually by running the following command from within the webui directory:
 
-	git clone https://github.com/adieyal/sd-dynamic-prompting/ extensions/dynamic-prompts
+	git clone https://github.com/jacobvo888/sd-dynamic-prompting/ extensions/dynamic-prompts
 
 ## Configuration
 In case of a syntax clash with another extension, Dynamic Prompts allows you to change the definition of variant start and variant end. By default these are set to `{` and `}` respectively. , e.g. `{red|green|blue}`. In the settings tab, you can change these two any string, e.g. `<red|green|blue>` or even `::red|green|blue::`.
@@ -106,7 +106,7 @@ By default, wildcards start with `__`(double underscore) and end with `__`. You 
 ## Troubleshooting
 If you encounter an issue with Dynamic Prompts, follow these steps to resolve the problem:
 
-1. Check that you have installed the latest version of both the Dynamic Prompts extension and library. To check the installed versions, open the **Need Help? accordion** in the Dynamic Prompts section of txt2image. You can find the latest version number of the extension [here](https://github.com/adieyal/sd-dynamic-prompts/blob/main/docs/CHANGELOG.md) and the library [here](https://github.com/adieyal/dynamicprompts/blob/main/CHANGELOG.md?plain=1).
+1. Check that you have installed the latest version of both the Dynamic Prompts extension and library. To check the installed versions, open the **Need Help? accordion** in the Dynamic Prompts section of txt2image. You can find the latest version number of the extension [here](https://github.com/jacobvo888/sd-dynamic-prompts/blob/main/docs/CHANGELOG.md) and the library [here](https://github.com/jacobvo888/dynamicprompts/blob/main/CHANGELOG.md?plain=1).
 
 2. If the versions do not match, update the extension in the extensions tab and restart the webui. The extension should automatically update the library.
 
@@ -126,7 +126,7 @@ python -m pip install -U dynamicprompts[attentiongrabber,magicprompt]
 
 6. If you get an error message saying "No values found for wildcard some/wildcard", ensure that the file wildcard.txt is in extensions/sd-dynamic-prompts/wildcards/some/. The full path is required, as relative paths are not currently supported.
 
-7. If the issue persists, search for solutions in the [issues section](https://github.com/adieyal/sd-dynamic-prompts/issues?q=is%3Aissue) on GitHub and the [discussion forum](https://github.com/adieyal/sd-dynamic-prompts/discussions). If you cannot find a solution, create a new issue and give it a descriptive name, such as "Wildcard values are being ignored in prompt templates". Provide the necessary context, including the versions of the Dynamic Prompts extension and library, and mention the operating system or colab being used. If there is an error in the terminal, copy and paste the entire text or take a screenshot.
+7. If the issue persists, search for solutions in the [issues section](https://github.com/jacobvo888/sd-dynamic-prompts/issues?q=is%3Aissue) on GitHub and the [discussion forum](https://github.com/jacobvo888/sd-dynamic-prompts/discussions). If you cannot find a solution, create a new issue and give it a descriptive name, such as "Wildcard values are being ignored in prompt templates". Provide the necessary context, including the versions of the Dynamic Prompts extension and library, and mention the operating system or colab being used. If there is an error in the terminal, copy and paste the entire text or take a screenshot.
 
 8. Finally, it is essential to test and apply any fixes we release. Your feedback is valuable, as an issue that works in our environment may not work in yours.
 
@@ -288,9 +288,9 @@ The extension looks for wildcard files in WILDCARD_DIR. The default location is 
 ## Collections
 The collections directory contains modifier libraries that you can use as is or to bootstrap your own. To get started, either use the Wildcard Manager tab to copy a one or more collections to your wildcards folder, or you can manually copy the files across. Three collections are bundled with the dynamic prompts extension.
 
-- [jumbo](https://github.com/adieyal/sd-dynamic-prompts/tree/main/collections/jumbo)
-- [parrotzone](https://github.com/adieyal/sd-dynamic-prompts/tree/main/collections/parrotzone)
-- [devilkkw](https://github.com/adieyal/sd-dynamic-prompts/tree/main/collections/devilkkw)
+- [jumbo](https://github.com/jacobvo888/sd-dynamic-prompts/tree/main/collections/jumbo)
+- [parrotzone](https://github.com/jacobvo888/sd-dynamic-prompts/tree/main/collections/parrotzone)
+- [devilkkw](https://github.com/jacobvo888/sd-dynamic-prompts/tree/main/collections/devilkkw)
 
 Jumbo is a very large collection of wildcards across many categories including aesthetics, appearance, artists, medium, style, and time. It is a work in progress, but aims to provide good coverage of various modifier categories.
 

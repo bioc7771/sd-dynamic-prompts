@@ -1,7 +1,7 @@
 
 **Before opening a new issue**
 
-Make sure that you have had a look at the [troubleshooting section](https://github.com/adieyal/sd-dynamic-prompts#troubleshooting) of the project's README file.
+Make sure that you have had a look at the [troubleshooting section](https://github.com/jacobvo888/sd-dynamic-prompts#troubleshooting) of the project's README file.
 
 **Describe the bug**
 

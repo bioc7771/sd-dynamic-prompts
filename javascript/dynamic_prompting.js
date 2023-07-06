@@ -2,7 +2,7 @@
 // prettier-ignore
 const SDDP_HELP_TEXTS = {
   "sddp-disable-negative-prompt": "Don't use prompt magic on negative prompts.",
-  "sddp-dynamic-prompts-enabled": "Complete documentation is available at https://github.com/adieyal/sd-dynamic-prompts. Please report any issues on GitHub.",
+  "sddp-dynamic-prompts-enabled": "Complete documentation is available at https://github.com/jacobvo888/sd-dynamic-prompts. Please report any issues on GitHub.",
   "sddp-is-attention-grabber": "Add emphasis to a randomly selected keyword in the prompt.",
   "sddp-is-combinatorial": "Generate all possible prompt combinations.",
   "sddp-is-feelinglucky": "Generate random prompts from lexica.art (your prompt is used as a search query).",

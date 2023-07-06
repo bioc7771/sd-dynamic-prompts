@@ -287,8 +287,8 @@ These changes are far more subtle and can be helpful if you want to explore slig
 
 # Conclusion
 
-This tutorial has covered the basics. There are additional features to try out once you feel comfortable using the tool. You can find a list of syntax examples [here](SYNTAX.md). This extension is constantly evolving, so make sure to update often. Feel free to ask questions [here](https://github.com/adieyal/sd-dynamic-prompts/discussions) and raise issues [here](https://github.com/adieyal/sd-dynamic-prompts/discussions).
+This tutorial has covered the basics. There are additional features to try out once you feel comfortable using the tool. You can find a list of syntax examples [here](SYNTAX.md). This extension is constantly evolving, so make sure to update often. Feel free to ask questions [here](https://github.com/jacobvo888/sd-dynamic-prompts/discussions) and raise issues [here](https://github.com/jacobvo888/sd-dynamic-prompts/discussions).
 
 # For developers
 
-Dynamic Prompts was initially developed for Automatic1111. It has recently been split into two separate projects. The Auto1111 extension described here, and the core prompts toolkit which you can find at [https://github.com/adieyal/dynamicprompts](https://github.com/adieyal/dynamicprompts). Dynamic Prompts can be incorporated into your application or colab very easily. Here is an example of Dynamic Prompts being used in the [Deforum 0.7 Colab](https://colab.research.google.com/drive/1qtYHUwFl9ocLyzDRL1_MlpQluV32ndoT)
+Dynamic Prompts was initially developed for Automatic1111. It has recently been split into two separate projects. The Auto1111 extension described here, and the core prompts toolkit which you can find at [https://github.com/jacobvo888/dynamicprompts](https://github.com/jacobvo888/dynamicprompts). Dynamic Prompts can be incorporated into your application or colab very easily. Here is an example of Dynamic Prompts being used in the [Deforum 0.7 Colab](https://colab.research.google.com/drive/1qtYHUwFl9ocLyzDRL1_MlpQluV32ndoT)
